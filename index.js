@@ -37,7 +37,7 @@ app.listen(port, () => {
   console.log('\x1b[36m[ SERVER ]\x1b[0m', '\x1b[32m SH : http://localhost:' + port + ' ✅\x1b[0m');
 });
 
-const statusMessages = ["Bạn Có Đói hok?","Đang Cooking Server","Thời Gian Ra Mắt? Tôi Cũng Chịu =)","How Tu ét","DanTuBao Collabs With Lunar Royal", "Sharkie","RealTime©"];
+const statusMessages = ["Cuộc gọi nhỡ cho em hàng đêm", "đến tận 200 lần Dòng ký ức trong em về anh", "bây giờ đang phai dần Quay gót rời đi", "không để lại gì Bay vút qua tầm tay","Sao còn vương vấn để làm gì?","Bọn mình kết thúc thật rồi, hết sức thật rồi","Phải không em ơi?,"Chuyện tình có khúc phải lòng, có lúc phải rời","Vậy đến lúc rồi Và có lẽ giờ này", "em đã ngủ say","Còn anh thì vẫn mang"," Nỗi Nhớ Em Trong Đêm Thật Dài"];
 const statusTypes = [ 'dnd', 'idle'];
 let currentStatusIndex = 0;
 let currentTypeIndex = 0;
